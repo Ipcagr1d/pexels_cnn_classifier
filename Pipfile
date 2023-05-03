@@ -7,6 +7,9 @@ name = "pypi"
 pexels-api = "*"
 requests = "*"
 python-dotenv = "*"
+opencv-python = "*"
+numpy = "*"
+tensorflow = "*"
 
 [dev-packages]
 

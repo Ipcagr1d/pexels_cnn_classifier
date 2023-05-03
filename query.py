@@ -8,11 +8,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # set up API
-api_key = os.getenv('PEXELS_API_KEY')
-api = API('NML9LYjorpAVsQdHb6g8eRMzwNajuoTl0QxwdB85aWN2OkE6iBYMmCRu')
+api = API(os.getenv('PEXELS_API_KEY'))
 
 # set up search criteria
-search_terms = ['lemon', 'lychee', 'grape'] # keywords for search
+search_terms = ['lemon', 'lychee', 'grape', 'kiwi', 'apple'] # keywords for search
 num_images = 150 # number of images to download for each keyword
 page_size = 80 # maximum number of images per page
 
